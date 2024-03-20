@@ -1,0 +1,138 @@
+body {
+    background-color: #6c3470;
+}
+
+.fifo {
+    height: 130px;
+    width: 130px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    margin-right: 1rem;
+    box-shadow: 0px 0px 70px #ec5957;
+}
+
+.divo {
+    display: flex;
+    justify-content: center;
+}
+
+.hedo {
+    height: 60px;
+    background-color: #ffc03f;
+    border-radius: 1rem;
+}
+
+.teto {
+    text-align: center;
+    color: #E7EDFB;
+    font-size: xxx-large;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.boton1 {
+    width: 12rem;
+    position: relative;
+    left: 8rem;
+    margin-top: 1rem;
+}
+
+.boton2 {
+    width: 12rem;
+    position: relative;
+    left: 8rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 70px #ec5957;
+}
+
+.fifo:hover {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(255, 153, 0);
+    margin: 10px;
+    margin-right: 1rem;
+    box-shadow: 0px 0px 70px rgb(255, 153, 0);
+}
+
+.toto {
+    text-align: center;
+    color: #000000;
+    font-family: ui-sans-serif;
+    font-size: xxx-large;
+    font-weight: 700;
+}
+
+.toto1 {
+    text-align: center;
+    color: #4e4c4c;
+    font-family: ui-sans-serif;
+    font-size: xxx-large;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.contact {
+    position: relative;
+    top: 15rem;
+    left: 13rem
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+    .contact {
+        position: relative;
+        top: 6rem;
+        left: 1rem
+    }
+
+    .modey {
+        width: -webkit-fill-available;
+        margin-top: 10px;
+    }
+
+    .boton1 {
+
+        width: 9rem;
+        left: 1rem;
+
+    }
+
+    .boton2 {
+
+        width: 9rem;
+        position: relative;
+        left: 0rem;
+        margin-top: 1rem;
+        box-shadow: 0px 0px 70px #ec5957;
+    }
+
+    .fifo {
+        height: 75px;
+    }
+
+    .teto {
+        font-size: xx-large;
+    }
+
+    .fifo:hover {
+        height: 75px;
+        width: 130px;
+        background-color: rgb(255, 153, 0);
+        margin: 10px;
+        margin-right: 1rem;
+        box-shadow: 0px 0px 70px rgb(255, 153, 0);
+    }
+
+    .toto1 {
+        text-align: center;
+        color: #4e4c4c;
+        font-family: ui-sans-serif;
+        font-size: xxx-large;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+}
